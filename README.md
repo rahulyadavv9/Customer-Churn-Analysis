@@ -123,7 +123,7 @@ The dashboard analyzes:
 
 ## Dashboard Preview
 
-![Customer Churn Dashboard](Screenshots/churn_dashboard_overview.png)
+[![Customer Churn Dashboard](Screenshots/churn_dashboard_overview.png)](https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/Screenshots/Customer%20Churn%20analysis.png)
 
 ---
 
