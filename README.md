@@ -1,143 +1,98 @@
-# Customer Churn Analysis
+📊 Customer Churn Analysis 
 
-## Project Overview
-Customer churn is a major challenge for businesses because losing customers directly impacts revenue and growth.
+🧠 Business Problem
 
-This project analyzes **bank customer churn using SQL and Power BI** to identify patterns in customer attrition and understand factors affecting customer retention.
-The project follows a complete **data analytics workflow** including data validation, cleaning, transformation, analysis, and dashboard development.
-The final result is an **interactive Power BI dashboard** that helps understand churn patterns and customer behavior.
+Customer churn is a critical challenge for businesses, directly impacting revenue and long-term growth.
+The objective of this project is to identify **why customers are leaving**, uncover **high-risk segments**, and provide **data-driven insights** to improve customer retention strategies.
 
 ---
 
-## Business Problem
-Banks need to understand:
+🎯 Objective
 
-- Why customers leave the bank
-- Which customer segments are more likely to churn
-- Differences between active and inactive customers
-- How customer attributes affect churn
-
-Without proper analytics, designing effective **customer retention strategies** becomes difficult.
+* Analyze customer churn behavior across multiple dimensions
+* Identify key drivers of churn (demographic, financial, behavioral)
+* Highlight high-risk customer segments
+* Enable data-driven decision-making for retention strategies
 
 ---
 
-## Dataset
-The dataset contains **10,000 bank customer records** with multiple related tables:
+📂 Dataset
 
-- CustomerInfo
-- Bank_Departure
-- ActiveCustomer
-- ExitCustomer
-- CreditCard
-- Gender
-- Geography
+* ~10,000 customer records
+* Includes attributes such as:
 
-Key attributes include:
-
-- Customer demographics
-- Credit score
-- Geography
-- Customer activity status
-- Credit card ownership
-- Estimated salary
-- Customer exit status
+  * Age
+  * Credit Score
+  * Balance
+  * Geography
+  * Activity Status
+  * Credit Card Ownership
 
 ---
 
-## Data Validation & Unit Testing
-Before analysis, SQL queries were used to validate the dataset.
+📊 Dashboard Overview
 
-Steps included:
+The report is designed as a **2-page analytical dashboard**:
 
-- Detecting duplicates using **ROW_NUMBER() and CTEs**
-- Identifying missing values
-- Validating relational keys across tables
-- Checking logical inconsistencies between **IsActiveMember and Exited**
-- Correcting incorrect records
+🟦 Page 1: Churn Overview
 
-This step ensured **data accuracy before dashboard development**.
+* KPI metrics (Total Customers, Churn Rate, Active Customers)
+* Monthly churn trend analysis
+* Regional churn comparison
+* Credit card ownership impact
+
+🟪 Page 2: Churn Drivers Analysis
+
+* Churn by Credit Score
+* Churn by Age Segment
+* Churn by Balance Group
+* Identification of high-risk customer segments
+
+---
+🔍 Key Insights
+
+* Overall churn rate is **20.37%** *(1 in 5 customers leaving)*
+* Germany shows highest churn (**~32%**), indicating regional risk
+* Senior customers exhibit significantly higher churn (**~45%**)
+* Low-balance customers show extreme churn (**~67%**)
+* Churn increases towards year-end, peaking in **November–December**
 
 ---
 
-## Data Cleaning & Transformation
-Data preparation was performed using **SQL Server**.
+💥 Key Takeaway
 
-Tasks included:
-
-- Duplicate detection
-- Missing value checks
-- Data consistency validation
-- Preparing analytical tables for reporting
+Customer churn is highest among **senior customers (~45%)** and those with **low to mid balances (~67% and ~32%)**, indicating that **age and financial engagement are the primary drivers of retention risk**.
 
 ---
 
-## Data Modeling
-A **Star Schema model** was used to organize the data.
+💡 Business Recommendations
 
-Fact Table:
-- Bank_Departure
-
-Dimension Tables:
-- CustomerInfo
-- Geography
-- Gender
-- CreditCard
-- ActiveCustomer
-- ExitCustomer
-
-This improved **query performance and reporting efficiency**.
+* Focus retention strategies on high-risk segments (senior customers)
+* Improve engagement for low-balance customers
+* Promote financial product usage to increase customer stickiness
+* Launch targeted campaigns before year-end churn peak
 
 ---
 
-## Dashboard Features
+🚀 Project Evolution
 
-### Key KPIs
-- Total Customers
-- Active Customers
-- Inactive Customers
-- Credit Card Holders
-- Non Credit Card Holders
-- Exit Customers
-- Retained Customers
+This project was initially developed as part of my learning journey in data analytics and later enhanced to a **professional-level dashboard** by:
 
-### Visual Insights
-The dashboard analyzes:
-
-- Monthly churn trends
-- Previous vs current month exit customers
-- Customer distribution by gender
-- Credit card ownership impact on churn
-- Active vs inactive customers over time
+* Transitioning from raw counts to **churn rate (%) analysis**
+* Introducing **segmentation (Age, Balance, Credit Score)**
+* Designing a **multi-page dashboard structure**
+* Adding **business insights and recommendations**
+* Improving UI/UX for better storytelling and clarity
 
 ---
 
-## Technologies Used
+📸 Dashboard Preview
 
-- SQL Server
-- Power BI
-- Power Query
-- DAX
-- Data Modeling (Star Schema)
+*(Add your dashboard screenshots here)*
 
 ---
+📬 Connect
 
-## Dashboard Preview
-
-[![Customer Churn Dashboard](Screenshots/churn_dashboard_overview.png)](https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/Screenshots/Customer%20Churn%20analysis.png)
+If you found this project interesting or have feedback, feel free to connect with me!
 
 ---
-
-## Project Structure
-
-```
-Customer-Churn-Analysis
-│
-├── Dataset
-├── SQL
-├── Dashboard
-├── Screenshots
-└── README.md
-```
-
-Rahul Yadav  
-Aspiring Data Analyst | Power BI Developer
