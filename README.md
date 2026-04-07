@@ -1,4 +1,3 @@
-<img width="1276" height="722" alt="churn-overview" src="https://github.com/user-attachments/assets/571c5f72-7d28-481a-a253-5997165f2fd8" />📊 Customer Churn Analysis 
 
 🧠 Business Problem
 
