@@ -1,4 +1,4 @@
-📊 Customer Churn Analysis 
+<img width="1276" height="722" alt="churn-overview" src="https://github.com/user-attachments/assets/571c5f72-7d28-481a-a253-5997165f2fd8" />📊 Customer Churn Analysis 
 
 🧠 Business Problem
 
@@ -93,6 +93,10 @@ https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/churn%20insigh
 
 Churn-insight-
 https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/churn%20insights.png
+
+<img width="1276" height="722" alt="churn-overview" src="https://github.com/user-attachments/assets/5a3eb9c6-d4a2-48dc-b770-981488a29d5b" />
+
+<img width="1273" height="717" alt="churn-insights" src="https://github.com/user-attachments/assets/e55ab973-4880-4ee4-beab-11399021e48b" />
 
 
 ---
