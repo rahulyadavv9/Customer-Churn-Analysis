@@ -86,7 +86,8 @@ This project was initially developed as part of my learning journey in data anal
 
 ---
 
-📸 Dashboard Preview
+📸 Dashboard Preview :
+
 Churn-overview-
 https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/churn%20insights.png
 
