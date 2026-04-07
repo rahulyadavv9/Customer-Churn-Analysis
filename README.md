@@ -87,7 +87,12 @@ This project was initially developed as part of my learning journey in data anal
 ---
 
 📸 Dashboard Preview
-https://github.com/rahulyadavv9/Customer-Churn-Analysis/commit/e22078c1e1c3257564f6d21a5c606a90b4132821
+Churn-overview-
+https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/churn%20insights.png
+
+Churn-insight-
+https://github.com/rahulyadavv9/Customer-Churn-Analysis/blob/main/churn%20insights.png
+
 
 ---
 📬 Connect
